@@ -42,6 +42,11 @@
                             <i class="fas fa-users"></i>
                             Tipo de Usuário
                         </a>
+
+                        <a class="collapse-item" href="cadastros/usuarios">
+                            <i class="fas fa-user-plus"></i>
+                            Usuário
+                        </a>
                     </div>
                 </div>
             </li>

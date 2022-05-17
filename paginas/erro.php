@@ -1,10 +1,8 @@
-<main>
-    <h1>Página não encontrada</h1>
-    <img src="imagens/erro.jpg"
-    alt="Erro 404">
-    <p class="center">
-        <a href="javascript:history.back()" class="btn">
-            Voltar
-        </a>
-    </p>
-</main>
+<?php
+    if ( !isset( $page ) ) {
+        exit;
+    }
+?>
+<div class="text-center">
+    <img src="images/erro.png" alt="Página não encontrada" class="w-100">
+</div>
